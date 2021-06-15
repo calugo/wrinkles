@@ -11,6 +11,8 @@ There are three main scripts in the SCRIPTS folder.
 * BISTRETCH - Compression of a bilayer composite.
 * GROWTH3D - Morphoelastic growth of a bilayer composite.
 
+![Neo-Hookean](IMGS/SOLS.png)
+
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
