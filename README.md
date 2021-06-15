@@ -7,11 +7,21 @@ The scripts are witten in python 3x and require a working working version of [FE
 
 There are three main scripts in the SCRIPTS folder.
 
-* MONOSTRETCH- Stretching of a slender monolayer volume.
-* BISTRETCH - Compression of a bilayer composite.
-* GROWTH3D - Morphoelastic growth of a bilayer composite.
+## MONOSTRETCH- Stretching of a slender monolayer volume.
+
+Which leads to solutions such as the one below: 
 
 ![Neo-Hookean](IMGS/SOLS.png)
+
+## BISTRETCH - Compression of a bilayer composite.
+
+This leads to solutions such as the one below:
+
+![Stretchcomp](IMGS/COMP3D)
+
+
+
+## GROWTH3D - Morphoelastic growth of a bilayer composite.
 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
