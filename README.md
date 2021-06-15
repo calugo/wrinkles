@@ -22,20 +22,17 @@ For this case the script is called **Nbbz.py** and it is not self contained as a
 
 ![Stretchcomp](IMGS/COMP3D.png)
 
-For t
+For both previous cases the material is assumed to be Neo-Hookean. The former incompressible, thus solving a mixed space finite element problem. Whereas the latter near incompressible. On both cases the solution is found by displacing the boundary surfaces accordingly and computing the elastic response to such displacements, the configurations obtained are the equilibrium configurations.
 
 ## GROWTH3D - Morphoelastic growth of a bilayer composite.
 
-This leads to solutions such the one below in the planar case:
+This problem assumes volumetric expansion of the subdomains, the kinematic formulation is slightly more complicated than for the previous two systems, again the scripts provided correspond to a mesh generation script named **N3mesh.py** and the solution script **bbz.py**. For this case the growth tensors can be specified and updated on execution time providing great flexibilty to study several interesting cases. Such as the ones shown below for two and three dimensional systems.
 
 ![FILMG2d](IMGS/GR2D.png)
 
 <p align="center">
   <img width="460" height="300" src="IMGS/PR.gif">
 </p>
-
-The bilayer cases are composed 
-
 
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
