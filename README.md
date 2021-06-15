@@ -23,6 +23,15 @@ This leads to solutions such as the one below:
 
 ## GROWTH3D - Morphoelastic growth of a bilayer composite.
 
+This leads to solutions such the one below in the planar case:
+
+![FILMG2d](IMGS/GR2D.png)
+
+And 
+
+![FILMG2d](IMGS/PR.gif)
+
+
 
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
