@@ -13,7 +13,7 @@ The script is called **slab.py** and it is self contained. It should leads to so
 
 ![Neo-Hookean](IMGS/SOLS.png)
 
-It generates on the fly athree dimensional dolfin mesh over which we solve the finite element problem. It works well with **mpi** under unix/linux out of the box, for other OS such as windows or apple I can not guarantee it.  An example of how to use mpi is: `mpirun -n 8 python slab.py`
+It generates on the fly a three dimensional dolfin mesh over which we solve the finite element problem. It works well with **mpi** under unix/linux out of the box, for other OS such as windows or apple I can not guarantee it.  An example of how to use mpi is: `mpirun -n 8 python slab.py`
  which will run the script using 8 cores. A similar command works for the next two cases. 
 
 ## BISTRETCH - Compression of a bilayer composite.
