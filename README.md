@@ -17,7 +17,7 @@ Which leads to solutions such as the one below:
 
 This leads to solutions such as the one below:
 
-![Stretchcomp](IMGS/COMP3D)
+![Stretchcomp](IMGS/COMP3D.png)
 
 
 
