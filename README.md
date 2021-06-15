@@ -28,8 +28,10 @@ This leads to solutions such the one below in the planar case:
 ![FILMG2d](IMGS/GR2D.png)
 
 And 
+<p align="center">
+  <img width="460" height="300" src="IMGS/PR.gif">
+</p>
 
-![FILMG2d](IMGS/PR.gif)
 
 
 
