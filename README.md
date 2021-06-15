@@ -9,9 +9,12 @@ There are three main scripts in the SCRIPTS folder.
 
 ## MONOSTRETCH- Stretching of a slender monolayer volume.
 
-The script is called  Which leads to solutions such as the one below: 
+The script is called **slab.py** and it is self contained. It should leads to solutions such as the one below: 
 
 ![Neo-Hookean](IMGS/SOLS.png)
+
+It generates on the fly athree dimensional dolfin mesh over which we solve the finite element problem. It works well with **mpi** under unix/linux out of the box, for other OS such as windows or apple I can not guarantee it.  An example of how to use mpi is: `mpirun -n 8 python slab.py`
+ which will run the script using 8 cores. A similar command works for the next two cases. 
 
 ## BISTRETCH - Compression of a bilayer composite.
 
@@ -27,15 +30,6 @@ This leads to solutions such the one below in the planar case:
 
 ![FILMG2d](IMGS/GR2D.png)
 
-The script is called **slab.py** and it is self contained. It generates a three dimensional dolfin mesh over which we solve the finite element problem. It works well with **mpi** under unix/linux out of the box, for other OS such as windows or apple, I can not guarantee it. For instance executing
-
-`
-mpirun -n 8 python slab.py
-`
- will run the script using 8 cores. A similar command works for the next two cases. 
-
-
-And 
 <p align="center">
   <img width="460" height="300" src="IMGS/PR.gif">
 </p>
