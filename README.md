@@ -3,7 +3,7 @@
 A detailed document describing details about the geometry domain, mesh preparation and solution methods, for the scripts available here
 can be found [here](https://arxiv.org/).
 
-The scripts are witten in python 3x and require a working version of [FEniCs](https://fenicsproject.org/). The script for the elastomer wrinkling due to stretching also requires [FEniCs mechanics](https://www.sciencedirect.com/science/article/pii/S2352711018300979).
+The scripts are witten in python 3x and require a working version of [FEniCs](https://fenicsproject.org/) and basic knowledge of the FEniCs/dolfin framework. The script for the elastomer wrinkling due to stretching also requires [FEniCs mechanics](https://www.sciencedirect.com/science/article/pii/S2352711018300979).
 
 There are three main scripts in the SCRIPTS folder.
 
@@ -18,11 +18,11 @@ It generates on the fly athree dimensional dolfin mesh over which we solve the f
 
 ## BISTRETCH - Compression of a bilayer composite.
 
-This leads to solutions such as the one below:
+For this case the script is called **Nbbz.py** and it is not self contained as an external mesh is generated in another script called **N3mesh.py**, once the mesh is generated the execution of the script `mpirun -n 8 python Nbbz.py` leads to solutions such as the one below. 
 
 ![Stretchcomp](IMGS/COMP3D.png)
 
-
+For t
 
 ## GROWTH3D - Morphoelastic growth of a bilayer composite.
 
