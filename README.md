@@ -1,7 +1,7 @@
 ## Support repository for several works investigating wrinkled surfaces in soft-matter surfaces.
 
 A document describing details about the geometry domain, mesh preparation and solution methods, for the scripts available here
-can be found [here]("https://calugo.github.io/wrinkles/view.pdf") {:target="_blank"}
+can be found  <a href="https://calugo.github.io/wrinkles/view.pdf" target="_blank">here</a>.
 
 The scripts are written in python 3x and require a working version of [FEniCs](https://fenicsproject.org/) and basic knowledge of the FEniCs/dolfin framework. The script for the elastomer wrinkling due to stretching also requires [FEniCs mechanics](https://www.sciencedirect.com/science/article/pii/S2352711018300979).
 
